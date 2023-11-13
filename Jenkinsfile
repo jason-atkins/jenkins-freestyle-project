@@ -29,7 +29,7 @@ pipeline{
 
     }
 
-    stage(''Deploy){
+    stage('Deploy'){
         steps{
             sh 'cat ./deploy.sh'
             sh 'echo "Deploying..."'
