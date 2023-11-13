@@ -37,6 +37,7 @@ pipeline{
             sh 'ls -l /tmp'
         }
 
-  }
+    }
 
+ }
 }
