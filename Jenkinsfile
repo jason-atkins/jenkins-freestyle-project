@@ -20,7 +20,7 @@ pipeline{
 
       steps{
 
-        sh 'echo "Testing 1 2 3"'
+        sh 'echo "Testing 1 2 3 4"'
         sh 'pwd'
         sh 'touch testfile.txt'
         sh 'ls -l'
